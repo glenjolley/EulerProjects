@@ -7,7 +7,7 @@ namespace Euler
     {
         static void Main(string[] args)
         {
-            IEuler Euler = new Euler1();
+            IEuler Euler = new Euler3();
             Euler.PerformEuler();
         }
     }
