@@ -7,8 +7,8 @@ namespace Euler
     {
         public void PerformEuler()
         {
-            long target = 6008514751437362153;
-            //long target = 600851475143;
+            //long target = 6008514751437362153;
+            long target = 600851475143;
             List<long> foundPrimeFactors = new();
 
             while (LowestPrime(target) != target)
